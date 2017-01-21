@@ -1,0 +1,26 @@
+<img src="/images/bbcsport.png" style="width:15%;"> 
+
+{{log model}}
+
+{{#each model.articles as |item|}}
+<hr>
+ <ul class="list-group">
+  <li class="list-group-item active">
+    <span class="badge">Title</span>
+    <h3>{{item.title}}</h3>
+  </li>
+  <li class="list-group-item active">
+    <span class="badge">Description</span>
+    {{item.description}}
+  </li>
+  <li class="list-group-item active">
+    <span class="badge">URL to News</span>
+     <a href={{item.url}} target="_blank">{{item.title}} </a>
+  </li>
+   <li class="list-group-item active">
+    <span class="badge">Author</span>
+    {{item.author}}
+  </li>
+</ul> 
+{{/each}}
+{{outlet}}
