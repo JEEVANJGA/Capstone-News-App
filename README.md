@@ -6,6 +6,7 @@ A short introduction of this app could easily go here.
 ## References
 * http://www.netosober.io/bootstrap/emberjs/embercli/2015/07/16/emberjs-styling-wtih-bootstrap/
 * http://tutorialzine.com/2016/09/everything-you-should-know-about-progressive-web-apps/
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
