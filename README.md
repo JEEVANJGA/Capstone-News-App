@@ -8,7 +8,7 @@ A short introduction of this app could easily go here.
 * http://tutorialzine.com/2016/09/everything-you-should-know-about-progressive-web-apps/
 
 ## Demo site
-*https://capstone-news-app.firebaseapp.com/
+* https://capstone-news-app.firebaseapp.com/
 
 ## Prerequisites
 
