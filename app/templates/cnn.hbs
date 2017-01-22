@@ -1,4 +1,4 @@
-<img src="/images/cnn-icon.png" style="width:15%;"> 
+<img src="/images/cnn-icon.png" alt="cnn logo" style="width:15%;"> 
 
 {{log model}}
 
@@ -12,7 +12,7 @@
     {{item.description}}
   </div>
   <div class="panel-footer"><span class="badge">URL to News</span>
-     <a href={{item.url}} target="_blank">{{item.title}} </a>
+     <a href={{item.url}} target="_blank" role="link" aria-label={{item.title}}>{{item.title}} </a>
 </div>
 </div>
 
