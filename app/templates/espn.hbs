@@ -1,28 +1,21 @@
 <img src="/images/ESPN.png" style="width:15%;"> 
 
-<style>
-.el{
-  height:120px;
-}
-</style>
 {{log model}}
 
 {{#each model.articles as |item|}}
 <hr>
- <ul class="list-group">
-  <li class="list-group-item active el">
-    <span class="badge">Title</span>
-    <h3>{{item.title}}</h3>
-  </li>
-  <li class="list-group-item active el">
+<div class="panel panel-primary">
+  <div class="panel-heading"><span class="badge">Title</span>
+    <h3>{{item.title}}</h3></div>
+  <div class="panel-body">
     <span class="badge">Description</span>
     {{item.description}}
-  </li>
-  <li class="list-group-item active el">
-    <span class="badge">URL to News</span>
+  </div>
+  <div class="panel-footer"><span class="badge">URL to News</span>
      <a href={{item.url}} target="_blank">{{item.title}} </a>
-  </li>
-  
-</ul> 
+</div>
+</div>
+
 {{/each}}
 {{outlet}}
+
