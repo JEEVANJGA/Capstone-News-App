@@ -3,12 +3,16 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
-## References
-* http://www.netosober.io/bootstrap/emberjs/embercli/2015/07/16/emberjs-styling-wtih-bootstrap/
-* http://tutorialzine.com/2016/09/everything-you-should-know-about-progressive-web-apps/
+## Features
+* Live News using [News Api](https://newsapi.org/ "News API")
+* Offline functionality
 
 ## Demo site
 * https://capstone-news-app.firebaseapp.com/
+
+## References
+* http://www.netosober.io/bootstrap/emberjs/embercli/2015/07/16/emberjs-styling-wtih-bootstrap/
+* http://tutorialzine.com/2016/09/everything-you-should-know-about-progressive-web-apps/
 
 ## Prerequisites
 
