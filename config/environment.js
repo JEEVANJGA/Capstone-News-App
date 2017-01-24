@@ -23,6 +23,7 @@ module.exports = function(environment) {
     }
   };
 
+
   ENV.serviceWorker = {
   enabled: true,
   debug: true,
