@@ -1,3 +1,23 @@
+<style>
+	#hcontainer{
+		
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		align-items :baseline;
+	}
+	#hitem{
+		flex: 0;
+		margin-bottom:5%;
+	}
+	img{
+		max-width: 250px;
+		min-height:250px;
+	}
+
+</style>
+
+
 <h1 align="center">Capstone News App</h1>
 
 <div class="alert alert-dismissible alert-warning">
@@ -6,6 +26,37 @@
   <p>Site under construction</p>
 </div>
 
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">Note</h3>
+  </div>
+  <div class="panel-body">
+    Top 10 News from following sources are provided. 
+  </div>
+</div>
+
+<div id="hcontainer">
+		<div id="hitem">
+		<a href="/bbc">
+        	<img src="/assets/images/bbc-news-icon.png" alt="bbc news logo"> 
+        	</a>
+        </div>
+		<div id="hitem">
+		<a href="/bbcsports">
+			<img src="/assets/images/bbcsport.png" alt="bbc sports logo"> 
+			</a>
+		</div>	
+		<div id="hitem">
+		<a href="/cnn">
+			<img src="/assets/images/cnn-icon.png" alt="cnn logo"> 
+			</a>
+	    </div>
+		<div id="hitem">
+		<a href="/espn">
+			<img src="/assets/images/ESPN.png" alt="espn logo"> 
+			</a>
+		</div>	
+</div>
 
 
 
