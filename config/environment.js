@@ -27,6 +27,9 @@ module.exports = function(environment) {
   ENV.serviceWorker = {
   enabled: true,
   debug: true,
+  swIncludeFiles: ['bower_components/pouchdb/dist/pouchdb.js'],
+  includeRegistration: true,
+  serviceWorkerFile: "sw.js",
 };
 
   if (environment === 'development') {
