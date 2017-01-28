@@ -5,7 +5,7 @@ A short introduction of this app could easily go here.
 
 ## Features
 * Live News using [News Api](https://newsapi.org/ "News API")
-* Offline functionality
+* Offline functionality - implemented using broccoli-serviceworker and localstorage
 
 ## Demo site
 * https://capstone-news-app.firebaseapp.com/
@@ -15,6 +15,8 @@ A short introduction of this app could easily go here.
 * http://tutorialzine.com/2016/09/everything-you-should-know-about-progressive-web-apps/
 * http://kiprosh.com/blog/launch-your-website-as-mobile-web-application
 * https://tsubik.com/blog/make-your-emberjs-web-app-more-progressive-part-1/
+* http://stackoverflow.com/questions/41886188/how-to-store-retrieve-and-delete-data-using-ember-data
+* http://vaughnroyko.com/saving-and-loading-objects-or-arrays-in-localstorage/
 
 ##Resources
 * http://www.favicon-generator.org/   for icon generation
