@@ -27,14 +27,12 @@ export default Ember.Route.extend({
 			   var data = JSON.stringify(json);
 		         localStorage.setItem('bbcnews', data);
 		         return JSON.parse(data);
-			}, function(reason) {
+			}, function(reason) {			
 			  // on rejection
-			  Ember.run.later((function() {
-				  //do something in here that will run in 2 seconds
 				  console.log(reason);
 				  var data = JSON.parse(localStorage.getItem('bbcnews'));
+				  console.log(data);
 		         return data;
-				}), 2000);
 			});
 	}
 });

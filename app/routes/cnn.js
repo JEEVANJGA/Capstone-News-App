@@ -29,12 +29,10 @@ export default Ember.Route.extend({
 		         return JSON.parse(data);
 			}, function(reason) {
 			  // on rejection
-			  Ember.run.later((function() {
-				  //do something in here that will run in 2 seconds
 				  console.log(reason);
 				  var data = JSON.parse(localStorage.getItem('cnn'));
+				  console.log(data);
 		         return data;
-				}), 2000);
 			});
 
 	}
