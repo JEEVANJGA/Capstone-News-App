@@ -31,6 +31,7 @@ export default Ember.Route.extend({
 			  // on rejection
 				  console.log(reason);
 				  var data = JSON.parse(localStorage.getItem('espn'));
+				  console.log(data);
 		         return data;
 			});
 
