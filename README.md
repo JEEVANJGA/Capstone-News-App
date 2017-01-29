@@ -7,6 +7,7 @@ For this final Project of Senior Web Developer Nanodegree Program, I chose a web
 
 ## Demo site
 * https://capstone-news-app.firebaseapp.com/
+![Capstone News App Home page](CNA.png)
 
 ## Lighthouse report
 Scored **80/100** on Lighthouse -
