@@ -3,12 +3,15 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
-## Features
-* Live News using [News Api](https://newsapi.org/ "News API")
-* Offline functionality - implemented using broccoli-serviceworker and localstorage
+For this final Project of Senior Web Developer Nanodegree Program, I chose a web app that delivers news from various sources using [News Api](https://newsapi.org/ "News API"). 
 
 ## Demo site
 * https://capstone-news-app.firebaseapp.com/
+
+## Features
+* Live News using [News Api](https://newsapi.org/ "News API")
+* Offline functionality - implemented using broccoli-serviceworker and localstorage
+* Push notification - native feature implemented using ember-cli-push-js-shim
 
 ## References
 * http://www.netosober.io/bootstrap/emberjs/embercli/2015/07/16/emberjs-styling-wtih-bootstrap/

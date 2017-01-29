@@ -1,6 +1,8 @@
 import Ember from 'ember';
+import Push from 'pushjs';
 
 export default Ember.Route.extend({
+
 	model(){
 		function getJSON(url){
 		  return new Promise(function(resolve, reject){
@@ -26,13 +28,24 @@ export default Ember.Route.extend({
 			  // on fulfillment
 			   var data = JSON.stringify(json);
 		         localStorage.setItem('bbcnews', data);
+		          Push.create('BBC News', {
+			        timeout: 3000,
+			        body: 'Site is online',
+			        icon: 'assets/images/bbc-news-icon.png'
+			      });
 		         return JSON.parse(data);
 			}, function(reason) {			
 			  // on rejection
 				  console.log(reason);
 				  var data = JSON.parse(localStorage.getItem('bbcnews'));
 				  console.log(data);
+				  Push.create('BBC News', {
+			        timeout: 3000,
+			        body: 'Site is offline',
+			        icon: 'assets/images/bbc-news-icon.png'
+			      });
 		         return data;
 			});
 	}
+
 });

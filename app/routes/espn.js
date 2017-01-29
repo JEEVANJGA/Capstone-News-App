@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import Push from 'pushjs';
 
 export default Ember.Route.extend({
 	model(){
@@ -26,12 +27,22 @@ export default Ember.Route.extend({
 			  // on fulfillment
 			   var data = JSON.stringify(json);
 		         localStorage.setItem('espn', data);
+		         Push.create('ESPN', {
+			        timeout: 3000,
+			        body: 'Site is online',
+			        icon: 'assets/images/ESPN.png'
+			      });
 		         return JSON.parse(data);
 			}, function(reason) {
 			  // on rejection
 				  console.log(reason);
 				  var data = JSON.parse(localStorage.getItem('espn'));
 				  console.log(data);
+				  Push.create('ESPN', {
+			        timeout: 3000,
+			        body: 'Site is offline',
+			        icon: 'assets/images/ESPN.png'
+			      });
 		         return data;
 			});
 
