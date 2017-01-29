@@ -3,7 +3,7 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
-For this final Project of Senior Web Developer Nanodegree Program, I chose a web app that delivers news from various sources using [News Api](https://newsapi.org/ "News API"). 
+For this final Project of Senior Web Developer Nanodegree Program, I chose a web app to be developed that could deliver news from various sources using [News Api](https://newsapi.org/ "News API"). 
 
 ## Demo site
 * https://capstone-news-app.firebaseapp.com/
