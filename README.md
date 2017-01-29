@@ -8,6 +8,9 @@ For this final Project of Senior Web Developer Nanodegree Program, I chose a web
 ## Demo site
 * https://capstone-news-app.firebaseapp.com/
 
+## Lighthouse report
+* blob:chrome-extension://blipmdconlkpinefehnmjammfjpmpbjk/b9a35a32-3c42-4cbb-8a10-d4ef4933702b#progressive-web app
+
 ## Features
 * Live News using [News Api](https://newsapi.org/ "News API")
 * Offline functionality - implemented using broccoli-serviceworker and localstorage
@@ -23,6 +26,8 @@ For this final Project of Senior Web Developer Nanodegree Program, I chose a web
 
 ##Resources
 * http://www.favicon-generator.org/   for icon generation
+
+
 
 ## Prerequisites
 
